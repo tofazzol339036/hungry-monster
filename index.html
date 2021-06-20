@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------- font awesome ----------->
+    <script src="https://kit.fontawesome.com/2aaa402074.js" crossorigin="anonymous"></script>
+    <!-------------Googlr font link------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!----------- custom css link -------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Hungry Monster</title>
+</head>
+<body>
+	<header id="header_content_area">
+		<div id="header_content">
+			<div>
+				<img src="images/panda-logo.png" alt="">
+				<h3>Hungry Monster Foods</h3>
+			</div>
+			<div id="navigation_div">
+				<ul id="nav_ul">
+					<li><a class="active" href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#recipies">Recipies</a></li>
+					<li><a href="#blogs">Blogs</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	  <!----------- header section end here... -------------->
+    <main>
+         <!----------- Start Main Body... -------------->
+        <section id="search_section_food_block">
+            <div id="search_food_block">
+                <input id="search_foodInput" type="text" placeholder=" &#xf002  Search your favourit food name" >
+                <button id="search_button">Search</button>
+            </div>
+            <div id="error_messages_alert_section">
+                <img src="images/banner_error_404.jpg" alt="">
+                <h2 id="error_meggase_alert">Sorry,We can't find this recipe.Please try again with different recipe name.</h2>
+                <button id="error_meggase_button">Ok</button>
+            </div>
+        </section>
+        <section id="recipe_Item_blocks">
+            <div id="recipe_div_area">
+                <img id="recipe_image_Item"src="" alt="">
+                <h2 id="recipe_name"></h2>
+                <h3 id="ingredients"></h3>
+                <ul id="ingredient_list"> 
+
+                </ul>
+            </div>
+        </section>
+        <section id="food_listMenu">
+            <div id="all_foodMenues">
+            </div>
+        </section>
+    </main>
+
+<script src="ecmascript6.js"></script> 
+    
+</body>
+</html>
+
